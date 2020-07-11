@@ -1,0 +1,50 @@
+.b
+{
+    background-color: #641E16;
+    color:#fff ; 
+
+    width: 150px;
+    font-size: 2em;
+    border-radius: 200px;
+    height: auto;
+}
+.buttons
+{
+    padding-top: 40px;
+}
+
+.stopwatch
+{
+    padding-bottom:10px;
+    margin-bottom: 40px;
+    width: 80%;
+    border-radius: 30px;
+}
+.stop_watch
+{
+    padding-top: 40px;
+}
+.st_time
+{
+    padding-top: 20px;
+    /* width: 40px; */
+
+}
+.s_watch
+{
+    border-radius: 30px;
+    width: 120px;
+}
+.s_image
+{
+    padding-top: 20px;
+    height: 40px;
+}
+.main_work
+{
+    padding-top: 200px;
+    background-image: url(images/stopwatch.png);
+    /* background-repeat: no-repeat; 
+    background-size: cover; */
+    height: 500px;
+}

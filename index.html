@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    
+</body>
+    <style>
+
+        body
+        {
+            background-color:#786335;
+            text-align: center;
+        }
+        h1
+        {
+            background-color:#641E16 ;
+            color: #fff;
+            display: inline-block;
+            width: 200px;
+            
+        }
+
+    </style>
+    <div class="container-sm container-md container-lg stop_watch">
+        <h1 class="stopwatch">
+            Stop Watch
+        </h1>
+    </div>
+   <div class="container-sm container-md container-lg main_work">
+
+    <div class="st_time">
+        <h1  class="s" >Timer</h1>
+        <h1 class="s_watch" id="min" >00</h1>
+        <h1 class="s_watch" id ="sec">00</h1>
+        <h1 class="s_watch" id ="mili_sec">00</h1>
+
+
+    </div>
+    <div class="container-sm container-md container-lg buttons">
+        <!-- <button onclick="start()"  disabled='disabled'>start</button> -->
+        <button id="start_btn" type="button" class="btn btn-dark b" onclick="start()" >Start</button>
+        <!-- <button onclick="stop()">Stop</button> -->
+        <button id="start_btn" type="button" class="btn btn-dark b"  onclick="stop()">Stop</button>
+        <!-- <button onclick="reset()">Reset</button> -->
+        <button type="button"  onclick="reset()" class="btn btn-dark b">Reset</button>
+
+
+    </div>
+
+
+    
+</body>
+<script src="app.js"></script>
+</html>
